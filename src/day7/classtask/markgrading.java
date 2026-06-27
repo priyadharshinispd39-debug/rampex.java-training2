@@ -14,6 +14,8 @@ public class markgrading {
         for(int i=0;i<marks.length;i++){
             sum=sum+marks[i];
         }
+        int per=sum/marks.length;
         System.out.println("Total marks: "+sum);
+        System.out.println("Percentage :"+per);
     }
 }
